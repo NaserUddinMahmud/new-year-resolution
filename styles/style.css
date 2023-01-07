@@ -15,7 +15,7 @@
 .banner {
   float: right;
 }
-.header-title {
+.banner .title {
   margin-bottom: 25px;
   max-width: 525px;
   max-height: 225px;
@@ -23,7 +23,7 @@
   font-size: 65px;
   color: #151414;
 }
-.header-description {
+.banner .description {
   margin-bottom: 35px;
   max-width: 500px;
   max-height: 80px;
@@ -64,4 +64,30 @@
 .section-points li {
   list-style: url(../images/icons/tick.png);
   margin-bottom: 10px;
+}
+/* year plan section style */
+.future-plan{
+    text-align: center;
+}
+.year-paln-container{
+    display: flex;
+    gap: 85px;
+    margin: 50px 230px 130px;
+}
+.future-plan .section-header{
+    font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  
+}
+.plan-title{
+    font-weight: 700;
+    font-size: 23px;
+    color: #151414;
+    margin-bottom: 15px;
+}
+.plan-description{
+    font-weight: 500;
+font-size: 16px;
+color: #737272;
 }
