@@ -4,16 +4,17 @@
 }
 /* header styles */
 .header {
-    height: 380px;
+  height: 380px;
   display: block;
   text-align: right;
   padding: 150px 100px;
-  background-image: url('../images/banner/banner2.png');
+  background-image: url("../images/banner/banner2.png");
+  background-repeat: no-repeat;
   background-size: 100%;
 }
 .banner {
   float: right;
-  }
+}
 .header-title {
   margin-bottom: 25px;
   max-width: 525px;
@@ -38,4 +39,29 @@
   font-weight: 600;
   font-size: 20px;
   color: #ffffff;
+}
+/* previous year section style */
+.previous-year {
+  margin: 150px 200px;
+  display: flex;
+  align-items: center;
+}
+.previous-year .section-header {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  margin-bottom: 25px;
+  max-width: 285px;
+}
+.previous-year .section-description {
+  color: #444343;
+  margin-bottom: 15px;
+  max-width: 415px;
+}
+.section-points {
+  color: #444343;
+}
+.section-points li {
+  list-style: url(../images/icons/tick.png);
+  margin-bottom: 10px;
 }
