@@ -66,57 +66,96 @@
   margin-bottom: 10px;
 }
 /* year plan section styles */
-.future-plan{
-    text-align: center;
+.future-plan {
+  text-align: center;
 }
-.year-paln-container{
-    display: flex;
-    gap: 85px;
-    margin: 50px 230px 130px;
+.year-paln-container {
+  display: flex;
+  gap: 85px;
+  margin: 50px 230px 130px;
 }
-.future-plan .section-header{
-    font-weight: 700;
+.future-plan .section-header {
+  font-weight: 700;
   font-size: 40px;
   color: #151414;
-  
 }
-.plan-title{
-    font-weight: 700;
-    font-size: 23px;
-    color: #151414;
-    margin-bottom: 15px;
+.plan-title {
+  font-weight: 700;
+  font-size: 23px;
+  color: #151414;
+  margin-bottom: 15px;
 }
-.plan-description{
-    font-weight: 500;
-font-size: 16px;
-color: #737272;
+.plan-description {
+  font-weight: 500;
+  font-size: 16px;
+  color: #737272;
 }
 /* call now section styles */
-.call-now{
-    height: 300px;
-    width: 1000px;
-    margin: 50px 180px 130px;
-    border-radius: 10px;
-    /* background-image: linear-gradient(to right , orangered, black),url(../images/watch.png); */
-    background-image: url(../images/gradient3.png),url(../images/watch.png); 
-    background-blend-mode: lighten;
-
+.call-now {
+  height: 300px;
+  width: 1000px;
+  margin: 50px 180px 130px;
+  border-radius: 10px;
+  /* background-image: linear-gradient(to right , orangered, black),url(../images/watch.png); */
+  background-image: url(../images/gradient3.png), url(../images/watch.png);
+  background-blend-mode: lighten;
 }
-.call-now .content-container{
-    padding: 60px 400px 60px 65px;
+.call-now .content-container {
+  padding: 60px 400px 60px 65px;
 }
-.call-now .section-header{
-    font-weight: 700;
-font-size: 40px;
-color: #FFFFFF;
-margin-bottom: 25px;
+.call-now .section-header {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: 25px;
 }
-.btn-secondary{
-    width: 160px;
-height: 64px;
-border-radius: 5px;
-border: none;
+.btn-secondary {
+  width: 160px;
+  height: 64px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+  color: #f15b22;
+}
+/* footer styles */
+.footer {
+  
+}
+.footer-container {
+  display: flex;
+  gap: 200px;
+  padding: 130px 180px;
+  background: #151414;
+}
+.footer .section-header {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 15px;
+  color: #f8f8f8;
+}
+.footer p {
+    margin-bottom: 25px;
+  color: #ffffff;
+}
+.footer .description{
+    max-width: 450px;
+}
+.Subscribe p{
     font-weight: 600;
-font-size: 20px;
-color: #F15B22;
+font-size: 25px;
+}
+.Subscribe input[type="email"] {
+    border-color: #f8f8f8;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background: #151414;
+    width: 100%;
+    height: 64px;
+    padding-left: 30px  ;
+}
+::placeholder {
+    color: #F3F3F3;
+    font-weight: 400;
+font-size: 18px;
 }
