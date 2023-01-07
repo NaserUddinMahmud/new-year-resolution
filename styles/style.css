@@ -96,9 +96,9 @@
   width: 1000px;
   margin: 50px 180px 130px;
   border-radius: 10px;
-  /* background-image: linear-gradient(to right , orangered, black),url(../images/watch.png); */
-  background-image: url(../images/gradient3.png), url(../images/watch.png);
-  background-blend-mode: lighten;
+  background-image: linear-gradient(to right , orangered, black),url(../images/watch.png);
+  background-blend-mode:lighten;
+
 }
 .call-now .content-container {
   padding: 60px 400px 60px 65px;
